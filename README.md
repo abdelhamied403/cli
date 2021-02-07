@@ -85,29 +85,3 @@ cli.err("message");
 # Dontations
 
 [Paypal](https://paypal.me/peixa?locale.x=en_US)
-
-<style>
-  .message{
-    color:#999;
-  }
-  .log{
-    background:white;
-  }
-  .warn{
-    background:khaki;
-  }
-  .succ{
-    background:lightgreen;
-  }
-  .err{
-    background:pink;
-  }
-  .box{
-    color:#222;
-    font-weight:bold;
-
-  }
-  .box::before, .box::after,.msg::before, .msg::after{
-    content:"‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎ "
-  }
-</style>
