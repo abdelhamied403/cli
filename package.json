@@ -1,0 +1,13 @@
+{
+  "name": "@cudy/cli",
+  "version": "1.1.0",
+  "description": "this is my logger npm package",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Abdelhamied mostafa",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
