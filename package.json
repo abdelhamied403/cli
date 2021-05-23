@@ -1,6 +1,6 @@
 {
   "name": "@cudy/sage",
-  "version": "1.0.0",
+  "version": "1.1.1",
   "description": "this is my logger npm package",
   "main": "index.js",
   "author": "Abdelhamied mostafa",

@@ -7,13 +7,13 @@ const box = {
   error: chalk.bold.bgRed(" ERROR "),
 };
 
-export const Loge = (
+export const loge = (
   type: "log" | "success" | "warn" | "error",
   message: string
 ) => {
   console.log(`${box[type]} ${message}`);
 };
-export const Sage = (
+export const sage = (
   type: "log" | "success" | "warn" | "error",
   message: string
 ) => `${box[type]} ${message}`;
