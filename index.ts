@@ -8,12 +8,12 @@ const box = {
 };
 
 export const Loge = (
-  message: string,
-  type: "log" | "success" | "warn" | "error"
+  type: "log" | "success" | "warn" | "error",
+  message: string
 ) => {
   console.log(`${box[type]} ${message}`);
 };
 export const Sage = (
-  message: string,
-  type: "log" | "success" | "warn" | "error"
+  type: "log" | "success" | "warn" | "error",
+  message: string
 ) => `${box[type]} ${message}`;

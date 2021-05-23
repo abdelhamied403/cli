@@ -8,24 +8,30 @@ Custom look of console.log() pooring function
 
 ---
 
-`npm i @cudy/cli`
+`npm i @cudy/sage`
 
 ### How to use it
+
+<!-- notes -->
+
+> sage returns the type + message
+
+> loge just logs that return
 
 ---
 
 ```js
 //  ES6
-import cli from "@cudy/cli";
+import Sage from "@cudy/sage";
 //  OR
-import { log, success, warn, error } from "@cudy/cli";
+import { Sage, Loge } from "@cudy/sage";
 ```
 
 ```js
 //  ES5
-const cli = require("@cudy/cli");
+const Sage = require("@cudy/sage");
 //  OR
-const { log, success, warn, error } = require("@cudy/cli");
+const { Sage, Loge } = require("@cudy/sage");
 ```
 
 ### Available functions
@@ -33,7 +39,7 @@ const { log, success, warn, error } = require("@cudy/cli");
 ---
 
 ```js
-cli.log("message");
+Loge("log", "I'm a log message");
 ```
 
 > OUTPUT
@@ -45,7 +51,7 @@ cli.log("message");
 <br/>
 
 ```js
-cli.succ("message");
+Loge("success", "I'm a success message");
 ```
 
 > OUTPUT
@@ -57,7 +63,7 @@ cli.succ("message");
 <br/>
 
 ```js
-cli.warn("message");
+Loge("warn", "I'm a warn message");
 ```
 
 > OUTPUT
@@ -69,7 +75,7 @@ cli.warn("message");
 <br/>
 
 ```js
-cli.err("message");
+Loge("error", "I'm an error message");
 ```
 
 > OUTPUT

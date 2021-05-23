@@ -1,2 +1,3 @@
-const s = require("./lib/index");
-s.Loge("test", "log");
+const { Loge, Sage } = require("./lib/index");
+Loge("log", "test");
+console.log(Sage("success", "error"));
