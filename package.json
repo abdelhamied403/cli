@@ -1,10 +1,8 @@
 {
   "name": "@cudy/cli",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "this is my logger npm package",
   "main": "index.js",
-  "scripts": {
-  },
   "author": "Abdelhamied mostafa",
   "license": "ISC",
   "dependencies": {
