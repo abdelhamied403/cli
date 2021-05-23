@@ -18,14 +18,14 @@ Custom look of console.log() pooring function
 //  ES6
 import cli from "@cudy/cli";
 //  OR
-import { log, succ, warn, err } from "@cudy/cli";
+import { log, success, warn, error } from "@cudy/cli";
 ```
 
 ```js
 //  ES5
 const cli = require("@cudy/cli");
 //  OR
-const { log, succ, warn, err } = require("@cudy/cli");
+const { log, success, warn, error } = require("@cudy/cli");
 ```
 
 ### Available functions

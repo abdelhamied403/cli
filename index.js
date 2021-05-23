@@ -4,13 +4,13 @@ const cli = {
   log(msg) {
     console.log(chalk.bold.bgWhite(" LOG ") + " " + msg);
   },
-  succ(msg) {
+  success(msg) {
     console.log(chalk.bold.bgGreen(" SUCCESS ") + " " + msg);
   },
   warn(msg) {
     console.log(chalk.bold.bgYellow(" WARNING ") + " " + msg);
   },
-  err(msg) {
+  error(msg) {
     console.log(chalk.bold.bgRed(" ERROR ") + " " + msg);
   },
 };
